@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    }
+    
+.hex {
+    font-size: 25px;
+    }
+
+.buttonCol {
+    padding: 0.25px 0.5px;
+    border: 3px solid grey;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: monotype corsiva, times new roman;
+    cursor: pointer;
+    outline: none;
+    }
+    
+.buttonCol:hover {
+    background-color: orange;
+    color: white;
+    }
+    
